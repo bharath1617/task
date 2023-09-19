@@ -1,0 +1,27 @@
+.input-container{
+    position: relative;
+    background: rgb(234, 234, 237);
+    margin-bottom:.5vh;
+}
+.custom-input{
+    height: 40px;
+    font-size: 14px;
+    width: 80%;
+    border: none;
+    padding: 5px 2vw;
+    border-radius: 5px;
+    margin-top: 3.5vh;
+    background: rgb(234, 234, 237);
+    outline: 1px solid gray;
+}
+.label{
+    position: absolute;
+    margin-left: 2vw;
+    color: hsl(274, 80%, 34%);
+    background: rgb(234, 234, 237); 
+    font-size: 14px;
+}
+
+.custom-input::placeholder{
+    color: #000;
+}
